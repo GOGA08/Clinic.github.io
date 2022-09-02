@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salome  Verulashvili Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
+</head>
+<body>
+    <div class="head">
+        Salome Verulashvili Center
+     </div>
+    <div class="head2">COSMETIC & ORTHOPEDIC DENTISTRY</div>
+    <div class="navbar">
+        <ul>
+            <li><a href="#"> WELCOME </a></il>
+            <li><a href="#"> OUR PRACTICE </a></il>
+            <li><a href="#"> PROCEDURES </a></il>
+            <li><a href="#"> PATIENT INFO </a></il>
+            <li><a href="#"> CONTACT US </a></il>
+        </ul>
+    </div>
+    <div class="pic-ctn">
+        <img src="family.jpg" alt="" class="pic">
+        <img src="smile1.jpg" alt="" class="pic">
+        <img src="confident.jpg" alt="" class="pic">
+        <img src="grandparent.jpg" alt="" class="pic">
+      </div>
+      <div class="middle">
+            <p></p>
+      </div>
+      <section class="container1">
+        <div class="one">
+            <img src="fam.jpg" class="img-section" alt="">
+            <h2>Family Dentistry</h2>
+            <p>Our team offers comprehensive <br>dental care for your entire family in<br> one place.</p>
+        </div>
+        <div class="two">
+            <img src="cosmetic.jpg" class="img-section" alt="">
+            <h2>Cosmetic Dentistry</h2>
+            <p>We provide dental care that <br>enhances not only your health but the <br>aesthetics of your smile.</p>
+        </div>
+        <div class="three">
+            <img src="implants.jpg" class="img-section" alt="">
+            <h2>Dental Implants</h2>
+            <p>We offer dental implants as a way to <br>replace the missing teeth and your<br> confidence in your smile.</p>
+        </div>
+      </section>
+    <div class="container2">
+        <div class="left">
+            <h3>Our Services</h3>
+                <div class="leftul">
+                    <p>Dental Implants and Options</p>
+                    <p>Invisalign</p>
+                    <p>Fixed Immediate Implant Bridge</p>
+                    <p>Digital Dentistry</p>
+                    <p>Non-Surgical Root Canals</p>
+                </div>
+        </div>
+            <div class="right">
+            
+            
+        
+            
+            </div>
+    </div>
+    <div class="container3">
+        <form action="#">
+
+            <header>
+              <h2>Contact us</h2>
+            </header>
+            
+            <div>
+              <label class="desc" id="title1" for="Field1" placeholder="Name">Name</label>
+              <div>
+                <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
+              </div>
+            </div>
+              
+            <div>
+              <label class="desc" id="title3" for="Field3">
+                Email
+              </label>
+              <div>
+                <input id="Field3" name="Field3" type="email" spellcheck="false" value="" maxlength="255" tabindex="3"> 
+             </div>
+            </div>
+              
+            <div>
+              <label class="desc" id="title4" for="Field4">
+                Message
+              </label>
+            
+              <div>
+                <textarea id="Field4" name="Field4" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+                <input id="saveForm" name="saveForm" type="submit" value="Submit">
+              </div>
+            </div>
+            
+          </form>
+          <div class="couple">
+
+          </div>
+    </div>
+</body>
